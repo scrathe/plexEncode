@@ -148,7 +148,7 @@ encode_file(){
 		if [[ $? != 0 ]]; then
 			echo_log "ERROR, HandBrake exit code $?"
 			rm "$atomic_file"
-            rm "$lockfile"
+			rm "$lockfile"
 			exit 1
 		fi
 		end=$(date +%s%N)
@@ -161,7 +161,7 @@ encode_file(){
 		ffmpeg=$(which ffmpeg)
 		if [[ $? != 0 ]]; then
 			echo_log "ERROR, ffmpeg missing"
-            rm "$lockfile"
+			rm "$lockfile"
 			exit 1
 		fi
 		
@@ -177,7 +177,7 @@ encode_file(){
 		if [[ $? != 0 ]]; then
 			echo_log "ERROR, ffmpeg exit code $?"
 			rm "$atomic_file"
-            rm "$lockfile"
+			rm "$lockfile"
 			exit 1
 		fi
 		end=$(date +%s%N)
