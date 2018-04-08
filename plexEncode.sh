@@ -7,7 +7,7 @@ shopt -s extglob
 # ██╔═══╝ ██║     ██╔══╝   ██╔██╗ ██╔══╝  ██║╚██╗██║██║     ██║   ██║██║  ██║██╔══╝  
 # ██║     ███████╗███████╗██╔╝ ██╗███████╗██║ ╚████║╚██████╗╚██████╔╝██████╔╝███████╗
 # ╚═╝     ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝                                                                                   
-# Home: https://gist.github.com/scrathe
+# Home: https://github.com/scrathe
 # Usage:
 # Plex DVR: Plex \ Settings \ Live TV & DVR \ DVR Settings \ Postprocessing Script = full path to the script
 #
