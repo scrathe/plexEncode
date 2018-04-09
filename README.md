@@ -1,5 +1,4 @@
-# plexEncode.sh
-                            
+![plexEncode.sh](https://image.ibb.co/jmZzxH/plex_Encode_logo.png)
 ### Usage:
 #### Plex DVR
 Setup: Plex \ Settings \ Live TV & DVR \ DVR Settings \ Postprocessing Script = full path to the script
