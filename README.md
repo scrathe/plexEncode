@@ -4,7 +4,7 @@
 #### Plex DVR
 Setup: Plex \ Settings \ Live TV & DVR \ DVR Settings \ Postprocessing Script = full path to the script
 #### Sonarr
-!(https://ibb.co/bRzDrc)
+![](https://ibb.co/bRzDrc)
 #### Radarr
 !(https://ibb.co/nywtrc)
 #### Shell
