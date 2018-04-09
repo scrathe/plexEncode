@@ -6,7 +6,7 @@ Setup: Plex \ Settings \ Live TV & DVR \ DVR Settings \ Postprocessing Script = 
 #### Sonarr
 ![Sonarr](https://ibb.co/nywtrc)
 #### Radarr
-![Radarr](https://ibb.co/bRzDrc)
+![Radarr](https://image.ibb.co/eWAKWc/plex_Encode_radarr.png)
 #### Shell
 ```
 Shell:    plexEncode.sh <file> <encoder> <remove_original>
