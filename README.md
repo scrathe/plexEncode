@@ -1,8 +1,9 @@
 # plexEncode
                             
 #### Usage:
-Plex DVR: Plex \ Settings \ Live TV & DVR \ DVR Settings \ Postprocessing Script = full path to the script
 ```
+Plex DVR: Plex \ Settings \ Live TV & DVR \ DVR Settings \ Postprocessing Script = full path to the script
+
 Shell:    plexEncode.sh <file> <encoder> <remove_original>
           <encoder>   = ffmpeg    # .mkv file output. modify $ffmpeg_options to your specs.
                       = handbrake # .m4v file output. modify $handbrake_options to your specs.
