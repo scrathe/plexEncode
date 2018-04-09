@@ -30,6 +30,9 @@ Script to add handbrake/ffmpeg/mediainfo/etc packages to your plex/sonarr/radarr
 
 #### Shell Examples:
 ```
+# encode a single file using default encoder and original file handling set in script
+plexEncode.sh "file"
+
 # encode a single file using handbrake, remove the original file
 plexEncode.sh "file" handbrake 1
 
