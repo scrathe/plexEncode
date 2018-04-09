@@ -31,11 +31,11 @@ Script to add handbrake/ffmpeg/mediainfo/etc packages to your plex/sonarr/radarr
 #### Shell Examples:
 ```
 # encode a single file using handbrake, remove the original file
-/media/scripts/plexEncode/plexEncode.sh "file" handbrake 1
+plexEncode.sh "file" handbrake 1
 
 # encode a single file using ffmpeg, keep the original file
-/media/scripts/plexEncode/plexEncode.sh "file" ffmpeg 0
+plexEncode.sh "file" ffmpeg 0
 
 # loop thru a directory containing multiple .ts files
-for i in *.ts; do /media/scripts/plexEncode/plexEncode.sh "$i" ; done
+for i in *.ts; do plexEncode.sh "$i" ; done
 ```
