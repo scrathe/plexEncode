@@ -12,8 +12,8 @@ plexEncode.sh <file> <encoder> <remove_original>
 
 <encoder>           = ffmpeg    # .mkv file output. modify $ffmpeg_options to your specs.
                     = handbrake # .m4v file output. modify $handbrake_options to your specs.
-<remove_original>   = 0 # keep original input file.
-                    = 1 # delete original input file.
+<remove_original>   = 0         # keep original input file.
+                    = 1         # delete original input file.
 ```
 #### Shell Examples:
 ```
