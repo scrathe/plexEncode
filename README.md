@@ -1,4 +1,4 @@
-# plexEncode
+# plexEncode.sh
                             
 ### Usage:
 #### Plex DVR
