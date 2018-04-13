@@ -32,3 +32,6 @@ for i in *.ts; do plexEncode.sh "$i" ; done
 
 #### Required:
 Script to add handbrake/ffmpeg/mediainfo/etc packages to your plex/sonarr/radarr dockers; https://gist.github.com/scrathe/ba29e50d95f71bfb207ccf6f74a425a7
+
+#### Sample Logging:
+![example](https://image.ibb.co/igfF97/plex_Encode_example.png)
