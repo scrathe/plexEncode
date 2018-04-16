@@ -2,10 +2,6 @@
 ### Usage:
 #### Plex DVR
 Setup: Plex \ Settings \ Live TV & DVR \ DVR Settings \ Postprocessing Script = full path to the script
-#### Sonarr
-![Sonarr](https://image.ibb.co/f9zrcH/plex_Encode_sonarr.png)
-#### Radarr
-![Radarr](https://image.ibb.co/eWAKWc/plex_Encode_radarr.png)
 #### Shell
 ```
 plexEncode.sh <file> <encoder> <remove_original>
@@ -29,6 +25,10 @@ plexEncode.sh "file" ffmpeg 0
 # loop thru a directory containing multiple .ts files
 for i in *.ts; do plexEncode.sh "$i" ; done
 ```
+#### Sonarr
+![Sonarr](https://image.ibb.co/f9zrcH/plex_Encode_sonarr.png)
+#### Radarr
+![Radarr](https://image.ibb.co/eWAKWc/plex_Encode_radarr.png)
 
 #### Required:
 Script to add handbrake/ffmpeg/mediainfo/etc packages to your plex/sonarr/radarr dockers; https://gist.github.com/scrathe/ba29e50d95f71bfb207ccf6f74a425a7
