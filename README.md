@@ -1,3 +1,5 @@
+Project is no longer being developed. I recommend taking a look at this; https://github.com/HaveAGitGat/Tdarr
+
 ![plexEncode.sh](https://image.ibb.co/jmZzxH/plex_Encode_logo.png)
 ### Usage:
 #### Plex DVR
